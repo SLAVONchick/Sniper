@@ -1,0 +1,21 @@
+storage none
+source https://api.nuget.org/v3/index.json
+nuget FSharp.Core
+// [ FAKE GROUP ]
+group Build
+    storage none
+    source https://api.nuget.org/v3/index.json
+    nuget Fake.DotNet.Cli
+    nuget Fake.IO.FileSystem
+    nuget Fake.Core.Target
+group Parser
+    storage none
+    source https://api.nuget.org/v3/index.json
+    nuget FSharp.Data
+group Server
+    storage none
+    source https://api.nuget.org/v3/index.json
+    nuget Microsoft.AspNetCore.App
+    nuget Giraffe
+    nuget TaskBuilder.fs
+    nuget FSharp.Core

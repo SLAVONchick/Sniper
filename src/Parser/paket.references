@@ -1,0 +1,3 @@
+group Parser
+    FSharp.Core
+    FSharp.Data
